@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: prometheus-server-conf
+  name: prometheus-server-configuration
   labels:
-    name: prometheus-server-conf
+    name: prometheus-server-configuration
   namespace: monitoring
 data:
   prometheus.rules: |-
