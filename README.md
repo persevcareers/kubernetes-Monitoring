@@ -1,5 +1,5 @@
-# Prometheus Monitoring 
-
+# Prometheus Monitoring  
+ 
 ## Metric Collection
 - **Pull Model**: Prometheus retrieves metrics over HTTP using a pull model.
 - **Pushgateway**: Option to push metrics to Prometheus, useful for short-lived Kubernetes jobs & Cronjobs.
