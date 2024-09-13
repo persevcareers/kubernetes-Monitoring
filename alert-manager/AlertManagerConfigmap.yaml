@@ -24,8 +24,8 @@ data:
     receivers:
     - name: alert-emailer
       email_configs:
-      - to: 
+      - to: praveensubramanyam11@gmail.com
         send_resolved: false
-        from: 
+        from: sample@gmail.com
         smarthost: smtp.gmail.com:465
         require_tls: false
